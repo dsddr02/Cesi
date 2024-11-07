@@ -7,11 +7,11 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
-  schedule:
-    - cron: "0 0 1,16 * *"
+  #schedule:
+  #  - cron: "0 0 1,16 * *"
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-23.05
   CONFIG_FILE: N1/.config
   DIY_SH: N1/diy.sh
