@@ -1,4 +1,8 @@
 # 写在前面
+
+Fork 大佬 nantayo
+https://github.com/nantayo/N1-OpenWrt
+感谢！
 本固件使用的是breakings 维护的[内核](https://github.com/breakings/OpenWrt/releases/tag/kernel_stable)进行打包。<br>
 由于近期收到反馈，5.15.x系列内核中，158及之前的版本可以正常翻墙，而之后的版本均不可以。在问题尚未解决之前，本仓库通过指定内核版本为158来规避。<br>
 这样操作仅仅是系统内核版本号不再更新，编译出来的插件仍然会是最新的，后续各位可以继续更新固件。
