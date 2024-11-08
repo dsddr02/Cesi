@@ -10,11 +10,12 @@ config interface 'docker'
 	option auto '0'
 
 config interface 'lan'
-	option proto 'static'
-	option netmask '255.255.255.0'
 	option device 'eth0'
+        option proto 'static'
 	option ipaddr '192.168.110.235'
+        option netmask '255.255.255.0
 	option gateway '192.168.110.1'
+        option dns '192.168.110.1'
 	option delegate '0'
 
 config device
